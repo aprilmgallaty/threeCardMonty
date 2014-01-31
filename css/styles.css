@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*general*/
+body{
+	background-image:url('../img/floors400x254.png');
+	background-repeat: repeat;
+	background-color: #5E3601;
+
+}
+
+p{
+	font-family: 'gondola_sdregular', Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+
+/*header*/
+header{
+	width: 1024px;
+	height: 125px;
+	margin: 0 auto;
+}
+
+
+
+h1{
+	font-family: 'gondola_sdregular', Verdana, Geneva, sans-serif;
+	font-size: 75px;
+	color: #fff;
+	float: left;
+	margin: 61px 25px 25px 25px;
+}
+	
+/*speedSlider*/
+#speedSlider{
+	background-image:url('../img/speedSlider211x100.png');
+	background-repeat: no-repeat;
+	width: 211px;
+	height: 100px;
+	float: right;
+	margin: 25px 15px 0 0;
+	position: relative;
+}
+
+.speedStops{
+	position: absolute;
+	top: 54px;
+	width: 40px;
+	height: 44px;
+}
+
+#slowSpeed{
+	left: 0;
+}
+
+#medSpeed{
+	left: 85px;
+}
+
+#fastSpeed{
+	left: 171px;
+}
+
+/*index*/
+#content {
+	width: 1024px;
+	margin: 0 auto;
+	height: auto;
+	clear: both;
+}
+
+#table{
+	background-image:url('../img/table1024x483.png');
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 483px;
+	margin: 18px auto 25px auto;
+}
+
+#tableButtons{
+	text-align: center;
+	padding-top: 7px;
+}
+
+#resetTableButton{
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:2px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 30px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #b23e35;
+	margin-right: 15px;
+}
+
+#resetTableButton:hover{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}
+
+#startTableButton{
+	-moz-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	box-shadow:inset 0px 1px 0px 0px #c1ed9c;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+	background:-moz-linear-gradient( center top, #9dce2c 5%, #8cb82b 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9dce2c', endColorstr='#8cb82b');
+	background-color:#9dce2c;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:2px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 30px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #689324;
+}
+
+#startTableButton:hover{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+	background:-moz-linear-gradient( center top, #8cb82b 5%, #9dce2c 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#8cb82b', endColorstr='#9dce2c');
+	background-color:#8cb82b;
+}
+
+#cardTable{
+	position: relative;
+	top: 85px;
+	left: 140px;
+}
+
+#opsArea{
+	width: 900px;
+	margin: 0 auto 75px auto;
+	height: auto;
+}
+
+#reset{
+	width: 100px;
+	height: 87px;
+	float: left;
+	margin: 20px 21px 25px 0;
+}
+
+#pot{
+	width: 150px;
+	float: left;
+	margin-right: 21px;
+	padding-bottom: 25px;
+}
+
+.money{
+	width: 100px;
+	height: 25px;
+	background-color: #000;
+	border: #ccc 10px groove;
+	padding: 10px;
+}
+
+.money p{
+	font-family: 'radiolandregular', Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.dollar{
+	float: left;
+}
+
+#bet{
+	width: 150px;
+	float: left;
+	margin-right: 21px;
+	padding-bottom: 25px;
+}
+
+#resetBet{
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:2px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 30px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #cc9f52;
+	margin-top: 15px;
+}
+
+#resetBet:hover{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}
+
+/*chips*/
+#oneChip, #fiveChip, #tenChip, #twentyFiveChip, #hundredChip{
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 10px 21px 0 0;
+}
+
+#information{
+	float: left;
+	margin-top: 35px;
+}
+
+/* credits */
+#credits p{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #bbb;
+	line-height: 24px;
+}
+
+#credits a{
+	color: #bbb;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#credits a:hover{
+	color: #fff;
+}
+
+/*global Misc */
+.clear{
+	clear:both;
+	margin: 0;
+	padding: 0;
+	height: 0;
+}
+
+.specialFont{
+	font-family: arial, geneva, sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+#infoDialog p{
+	font-family: arial, geneva, sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.scoreText{
+	padding: 15px 0 10px 0;
+	text-align: center;
+}
